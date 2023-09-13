@@ -5,6 +5,9 @@
 Employee Management (CRUD) System
 
 ## 1. Project Description:
+Built a scalable web application with standard features to manage Employees Details.
+Designed a RESTFul API that can perform CRUD opration on employee , manage larege amount of data. All RestFul API tested locally using PostMan tool. 
+All data and information is managed by MySql database for this application .
 
 A SpringBoot web application for Employee Information Management with the following CRUD operations:
 
@@ -24,6 +27,7 @@ A SpringBoot web application for Employee Information Management with the follow
 - MySql database
 - Lombok
 - Postman
+- Apache Tomcat Server
 
 
 
@@ -60,6 +64,33 @@ vii. Add, Update and Delete records from web app
 Have fun
 
 😎 
+
+
+## 5. Requests WebAPP from clint Postman
+
+Create Employee
+http://localhost:8080/employees
+
+Delete Employee
+http://localhost:8080/employees/{empId}
+
+Delete All Employee
+http://localhost:8080/employees
+
+Update Employee
+http://localhost:8080/employees/{empId}
+
+Get Employee
+http://localhost:8080/employees/{empId}
+
+Get All Employee
+http://localhost:8080/employees
+
+Get All Employee By Address
+http://localhost:8080/employees/{address}
+
+Get Employee address name mobile
+http://localhost:8080/employees
 
 
 
